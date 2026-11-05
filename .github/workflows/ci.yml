@@ -1,0 +1,81 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  analytics-test:
+    name: Python Analytics Test Suite
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r sat-sa/analytics/requirements.txt
+          pip install pytest pytest-cov
+
+      - name: Run Analytics Test Suite (pytest)
+        run: |
+          cd sat-sa/analytics
+          pytest tests -v --cov=. --cov-report=term-missing
+
+      - name: Verify Detection Benchmark
+        run: |
+          python benchmark/generate_data.py --size small --output benchmark/data/small --seed 42
+          python benchmark/detection_benchmark.py --db-path benchmark/data/small/sat_sa.db --ground-truth benchmark/data/small/ground_truth.json
+
+  backend-test:
+    name: Node.js Backend Test Suite
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: "npm"
+          cache-dependency-path: sat-sa/backend/package-lock.json
+
+      - name: Install Node Dependencies
+        working-directory: sat-sa/backend
+        run: npm ci || npm install
+
+      - name: TypeScript Build
+        working-directory: sat-sa/backend
+        run: npm run build
+
+      - name: Run Backend Integration & API Tests
+        working-directory: sat-sa/backend
+        run: npm test
+
+  security-integrity-audit:
+    name: Security & Audit Chain Verification
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Verify LANL Redteam Dataset Adapter
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r sat-sa/analytics/requirements.txt
+          python sat-sa/analytics/lanl_adapter.py

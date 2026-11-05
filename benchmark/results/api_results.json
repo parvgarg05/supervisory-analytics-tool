@@ -1,0 +1,692 @@
+{
+  "benchmark_timestamp": "2026-11-05T08:55:33.900Z",
+  "concurrency_levels": [
+    1,
+    5,
+    10,
+    25,
+    50
+  ],
+  "requests_per_concurrency": 100,
+  "endpoints": {
+    "/api/health": [
+      {
+        "endpoint": "/api/health",
+        "concurrency": 1,
+        "total_requests": 100,
+        "total_time_seconds": 0.688,
+        "requests_per_second": 145.25,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 325,
+        "latency_ms": {
+          "min": 1.64,
+          "p50": 4.73,
+          "p90": 10.02,
+          "p95": 18.31,
+          "p99": 31.46,
+          "max": 75.66,
+          "mean": 6.84
+        }
+      },
+      {
+        "endpoint": "/api/health",
+        "concurrency": 5,
+        "total_requests": 100,
+        "total_time_seconds": 0.296,
+        "requests_per_second": 338.34,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 325,
+        "latency_ms": {
+          "min": 6.38,
+          "p50": 12.35,
+          "p90": 23.7,
+          "p95": 25.27,
+          "p99": 32.93,
+          "max": 34.53,
+          "mean": 14.51
+        }
+      },
+      {
+        "endpoint": "/api/health",
+        "concurrency": 10,
+        "total_requests": 100,
+        "total_time_seconds": 0.282,
+        "requests_per_second": 354.12,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 325,
+        "latency_ms": {
+          "min": 11.68,
+          "p50": 22.22,
+          "p90": 48.97,
+          "p95": 66.16,
+          "p99": 75.53,
+          "max": 77.18,
+          "mean": 27.94
+        }
+      },
+      {
+        "endpoint": "/api/health",
+        "concurrency": 25,
+        "total_requests": 100,
+        "total_time_seconds": 0.311,
+        "requests_per_second": 321.77,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 325,
+        "latency_ms": {
+          "min": 30.89,
+          "p50": 64.94,
+          "p90": 106.38,
+          "p95": 116.06,
+          "p99": 118.17,
+          "max": 119.08,
+          "mean": 72.01
+        }
+      },
+      {
+        "endpoint": "/api/health",
+        "concurrency": 50,
+        "total_requests": 100,
+        "total_time_seconds": 0.454,
+        "requests_per_second": 220.19,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 325,
+        "latency_ms": {
+          "min": 103.58,
+          "p50": 214.52,
+          "p90": 283.38,
+          "p95": 297.45,
+          "p99": 312.98,
+          "max": 314.38,
+          "mean": 212.76
+        }
+      }
+    ],
+    "/api/dashboard": [
+      {
+        "endpoint": "/api/dashboard",
+        "concurrency": 1,
+        "total_requests": 100,
+        "total_time_seconds": 0.441,
+        "requests_per_second": 226.91,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 1012,
+        "latency_ms": {
+          "min": 2.68,
+          "p50": 3.85,
+          "p90": 6.28,
+          "p95": 7.86,
+          "p99": 11.65,
+          "max": 13.09,
+          "mean": 4.4
+        }
+      },
+      {
+        "endpoint": "/api/dashboard",
+        "concurrency": 5,
+        "total_requests": 100,
+        "total_time_seconds": 0.352,
+        "requests_per_second": 283.7,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 1012,
+        "latency_ms": {
+          "min": 12.38,
+          "p50": 15.48,
+          "p90": 20.27,
+          "p95": 29.17,
+          "p99": 50.69,
+          "max": 50.85,
+          "mean": 17.56
+        }
+      },
+      {
+        "endpoint": "/api/dashboard",
+        "concurrency": 10,
+        "total_requests": 100,
+        "total_time_seconds": 0.279,
+        "requests_per_second": 358.34,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 1012,
+        "latency_ms": {
+          "min": 21.28,
+          "p50": 25.94,
+          "p90": 36.29,
+          "p95": 38.81,
+          "p99": 40.18,
+          "max": 40.34,
+          "mean": 27.72
+        }
+      },
+      {
+        "endpoint": "/api/dashboard",
+        "concurrency": 25,
+        "total_requests": 100,
+        "total_time_seconds": 0.471,
+        "requests_per_second": 212.47,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 1012,
+        "latency_ms": {
+          "min": 88.75,
+          "p50": 118.79,
+          "p90": 133.87,
+          "p95": 135.77,
+          "p99": 138.78,
+          "max": 139.8,
+          "mean": 116.31
+        }
+      },
+      {
+        "endpoint": "/api/dashboard",
+        "concurrency": 50,
+        "total_requests": 100,
+        "total_time_seconds": 0.369,
+        "requests_per_second": 271.08,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 1012,
+        "latency_ms": {
+          "min": 159.21,
+          "p50": 178.21,
+          "p90": 191.48,
+          "p95": 192.34,
+          "p99": 193.37,
+          "max": 196.18,
+          "mean": 177.47
+        }
+      }
+    ],
+    "/api/entities": [
+      {
+        "endpoint": "/api/entities",
+        "concurrency": 1,
+        "total_requests": 100,
+        "total_time_seconds": 0.618,
+        "requests_per_second": 161.73,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 159200,
+        "latency_ms": {
+          "min": 3.05,
+          "p50": 4.48,
+          "p90": 8.74,
+          "p95": 17.65,
+          "p99": 23.62,
+          "max": 27.2,
+          "mean": 6
+        }
+      },
+      {
+        "endpoint": "/api/entities",
+        "concurrency": 5,
+        "total_requests": 100,
+        "total_time_seconds": 1,
+        "requests_per_second": 99.95,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 159200,
+        "latency_ms": {
+          "min": 12.71,
+          "p50": 40.66,
+          "p90": 83.63,
+          "p95": 104.7,
+          "p99": 131.57,
+          "max": 131.57,
+          "mean": 49.35
+        }
+      },
+      {
+        "endpoint": "/api/entities",
+        "concurrency": 10,
+        "total_requests": 100,
+        "total_time_seconds": 0.84,
+        "requests_per_second": 119.1,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 159200,
+        "latency_ms": {
+          "min": 49.1,
+          "p50": 79.4,
+          "p90": 109.31,
+          "p95": 137.01,
+          "p99": 139.24,
+          "max": 140.12,
+          "mean": 82.73
+        }
+      },
+      {
+        "endpoint": "/api/entities",
+        "concurrency": 25,
+        "total_requests": 100,
+        "total_time_seconds": 0.514,
+        "requests_per_second": 194.6,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 159200,
+        "latency_ms": {
+          "min": 66.87,
+          "p50": 106.62,
+          "p90": 168.06,
+          "p95": 168.25,
+          "p99": 169.05,
+          "max": 169.26,
+          "mean": 124.21
+        }
+      },
+      {
+        "endpoint": "/api/entities",
+        "concurrency": 50,
+        "total_requests": 100,
+        "total_time_seconds": 1.095,
+        "requests_per_second": 91.34,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 159200,
+        "latency_ms": {
+          "min": 256.97,
+          "p50": 449.68,
+          "p90": 547.94,
+          "p95": 563.7,
+          "p99": 573.17,
+          "max": 574.72,
+          "mean": 454.59
+        }
+      }
+    ],
+    "/api/entities/CSE-007": [
+      {
+        "endpoint": "/api/entities/CSE-007",
+        "concurrency": 1,
+        "total_requests": 100,
+        "total_time_seconds": 0.629,
+        "requests_per_second": 158.92,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 70235,
+        "latency_ms": {
+          "min": 2.71,
+          "p50": 4.82,
+          "p90": 9.39,
+          "p95": 13.17,
+          "p99": 29.23,
+          "max": 41.91,
+          "mean": 6.2
+        }
+      },
+      {
+        "endpoint": "/api/entities/CSE-007",
+        "concurrency": 5,
+        "total_requests": 100,
+        "total_time_seconds": 0.424,
+        "requests_per_second": 235.66,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 70235,
+        "latency_ms": {
+          "min": 13.02,
+          "p50": 18.98,
+          "p90": 33.61,
+          "p95": 34.98,
+          "p99": 36.77,
+          "max": 37.72,
+          "mean": 21.06
+        }
+      },
+      {
+        "endpoint": "/api/entities/CSE-007",
+        "concurrency": 10,
+        "total_requests": 100,
+        "total_time_seconds": 0.398,
+        "requests_per_second": 251.34,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 70235,
+        "latency_ms": {
+          "min": 21.06,
+          "p50": 38.5,
+          "p90": 50.27,
+          "p95": 56.82,
+          "p99": 57.46,
+          "max": 57.59,
+          "mean": 39.25
+        }
+      },
+      {
+        "endpoint": "/api/entities/CSE-007",
+        "concurrency": 25,
+        "total_requests": 100,
+        "total_time_seconds": 0.556,
+        "requests_per_second": 179.89,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 70235,
+        "latency_ms": {
+          "min": 76.65,
+          "p50": 95.74,
+          "p90": 208.45,
+          "p95": 214.47,
+          "p99": 222.93,
+          "max": 226.89,
+          "mean": 136.56
+        }
+      },
+      {
+        "endpoint": "/api/entities/CSE-007",
+        "concurrency": 50,
+        "total_requests": 100,
+        "total_time_seconds": 0.425,
+        "requests_per_second": 235.42,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 70235,
+        "latency_ms": {
+          "min": 158.45,
+          "p50": 184.68,
+          "p90": 198.28,
+          "p95": 200.61,
+          "p99": 205.71,
+          "max": 213.21,
+          "mean": 184.35
+        }
+      }
+    ],
+    "/api/findings": [
+      {
+        "endpoint": "/api/findings",
+        "concurrency": 1,
+        "total_requests": 100,
+        "total_time_seconds": 1.02,
+        "requests_per_second": 98.03,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 106482,
+        "latency_ms": {
+          "min": 2.85,
+          "p50": 8.58,
+          "p90": 13.11,
+          "p95": 18.31,
+          "p99": 21.22,
+          "max": 64.71,
+          "mean": 9.9
+        }
+      },
+      {
+        "endpoint": "/api/findings",
+        "concurrency": 5,
+        "total_requests": 100,
+        "total_time_seconds": 1.055,
+        "requests_per_second": 94.83,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 106482,
+        "latency_ms": {
+          "min": 18.87,
+          "p50": 48.93,
+          "p90": 76.78,
+          "p95": 86.32,
+          "p99": 107.71,
+          "max": 108.41,
+          "mean": 52.21
+        }
+      },
+      {
+        "endpoint": "/api/findings",
+        "concurrency": 10,
+        "total_requests": 100,
+        "total_time_seconds": 0.733,
+        "requests_per_second": 136.46,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 106482,
+        "latency_ms": {
+          "min": 27.67,
+          "p50": 58.98,
+          "p90": 105.17,
+          "p95": 153.53,
+          "p99": 164.29,
+          "max": 165.91,
+          "mean": 70.68
+        }
+      },
+      {
+        "endpoint": "/api/findings",
+        "concurrency": 25,
+        "total_requests": 100,
+        "total_time_seconds": 0.916,
+        "requests_per_second": 109.19,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 106482,
+        "latency_ms": {
+          "min": 118.75,
+          "p50": 195.64,
+          "p90": 262.98,
+          "p95": 334.93,
+          "p99": 344.46,
+          "max": 348.46,
+          "mean": 208.34
+        }
+      },
+      {
+        "endpoint": "/api/findings",
+        "concurrency": 50,
+        "total_requests": 100,
+        "total_time_seconds": 1.047,
+        "requests_per_second": 95.55,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 106482,
+        "latency_ms": {
+          "min": 253.39,
+          "p50": 425.56,
+          "p90": 604.3,
+          "p95": 612.11,
+          "p99": 624.42,
+          "max": 627.24,
+          "mean": 454.83
+        }
+      }
+    ],
+    "/api/evidence/integrity": [
+      {
+        "endpoint": "/api/evidence/integrity",
+        "concurrency": 1,
+        "total_requests": 100,
+        "total_time_seconds": 2.634,
+        "requests_per_second": 37.97,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 150,
+        "latency_ms": {
+          "min": 5.56,
+          "p50": 21.79,
+          "p90": 40.19,
+          "p95": 56.48,
+          "p99": 147.48,
+          "max": 151.41,
+          "mean": 26.32
+        }
+      },
+      {
+        "endpoint": "/api/evidence/integrity",
+        "concurrency": 5,
+        "total_requests": 100,
+        "total_time_seconds": 0.558,
+        "requests_per_second": 179.26,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 150,
+        "latency_ms": {
+          "min": 11.01,
+          "p50": 18.75,
+          "p90": 40.56,
+          "p95": 67.47,
+          "p99": 146.69,
+          "max": 150.01,
+          "mean": 27.6
+        }
+      },
+      {
+        "endpoint": "/api/evidence/integrity",
+        "concurrency": 10,
+        "total_requests": 100,
+        "total_time_seconds": 0.397,
+        "requests_per_second": 251.58,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 150,
+        "latency_ms": {
+          "min": 16.47,
+          "p50": 37.15,
+          "p90": 49.25,
+          "p95": 59.86,
+          "p99": 60.92,
+          "max": 60.93,
+          "mean": 39.57
+        }
+      },
+      {
+        "endpoint": "/api/evidence/integrity",
+        "concurrency": 25,
+        "total_requests": 100,
+        "total_time_seconds": 0.453,
+        "requests_per_second": 220.81,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 150,
+        "latency_ms": {
+          "min": 55.29,
+          "p50": 83.98,
+          "p90": 141.84,
+          "p95": 180.37,
+          "p99": 181.65,
+          "max": 181.87,
+          "mean": 102.76
+        }
+      },
+      {
+        "endpoint": "/api/evidence/integrity",
+        "concurrency": 50,
+        "total_requests": 100,
+        "total_time_seconds": 0.499,
+        "requests_per_second": 200.55,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 150,
+        "latency_ms": {
+          "min": 63.95,
+          "p50": 226.53,
+          "p90": 317.71,
+          "p95": 320.91,
+          "p99": 323.56,
+          "max": 324.1,
+          "mean": 243.9
+        }
+      }
+    ],
+    "/api/trends": [
+      {
+        "endpoint": "/api/trends",
+        "concurrency": 1,
+        "total_requests": 100,
+        "total_time_seconds": 0.498,
+        "requests_per_second": 200.93,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 9595,
+        "latency_ms": {
+          "min": 2.04,
+          "p50": 4.89,
+          "p90": 7.7,
+          "p95": 8.69,
+          "p99": 10.15,
+          "max": 10.51,
+          "mean": 4.96
+        }
+      },
+      {
+        "endpoint": "/api/trends",
+        "concurrency": 5,
+        "total_requests": 100,
+        "total_time_seconds": 0.606,
+        "requests_per_second": 164.98,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 9595,
+        "latency_ms": {
+          "min": 10.16,
+          "p50": 28.42,
+          "p90": 45.56,
+          "p95": 47.95,
+          "p99": 53.11,
+          "max": 53.17,
+          "mean": 30.22
+        }
+      },
+      {
+        "endpoint": "/api/trends",
+        "concurrency": 10,
+        "total_requests": 100,
+        "total_time_seconds": 0.261,
+        "requests_per_second": 382.95,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 9595,
+        "latency_ms": {
+          "min": 17.53,
+          "p50": 24.69,
+          "p90": 34.2,
+          "p95": 40.18,
+          "p99": 40.33,
+          "max": 40.39,
+          "mean": 25.93
+        }
+      },
+      {
+        "endpoint": "/api/trends",
+        "concurrency": 25,
+        "total_requests": 100,
+        "total_time_seconds": 0.245,
+        "requests_per_second": 408.6,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 9595,
+        "latency_ms": {
+          "min": 49.76,
+          "p50": 54.31,
+          "p90": 74.46,
+          "p95": 74.54,
+          "p99": 74.65,
+          "max": 74.69,
+          "mean": 60.32
+        }
+      },
+      {
+        "endpoint": "/api/trends",
+        "concurrency": 50,
+        "total_requests": 100,
+        "total_time_seconds": 0.23,
+        "requests_per_second": 434.19,
+        "error_count": 0,
+        "error_rate_pct": 0,
+        "avg_payload_bytes": 9595,
+        "latency_ms": {
+          "min": 97.96,
+          "p50": 103.46,
+          "p90": 121.77,
+          "p95": 122.36,
+          "p99": 122.8,
+          "max": 123.57,
+          "mean": 110.03
+        }
+      }
+    ]
+  }
+}

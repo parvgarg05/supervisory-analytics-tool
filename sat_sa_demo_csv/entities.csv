@@ -1,0 +1,21 @@
+entity_id,entity_name,sector
+CSE-001,Banking Entity 01,Banking
+CSE-002,Energy Entity 02,Energy
+CSE-003,Healthcare Entity 03,Healthcare
+CSE-004,Telecom Entity 04,Telecom
+CSE-005,Transport Entity 05,Transport
+CSE-006,Banking Entity 06,Banking
+CSE-007,Energy Entity 07,Energy
+CSE-008,Healthcare Entity 08,Healthcare
+CSE-009,Telecom Entity 09,Telecom
+CSE-010,Transport Entity 10,Transport
+CSE-011,Banking Entity 11,Banking
+CSE-012,Energy Entity 12,Energy
+CSE-013,Healthcare Entity 13,Healthcare
+CSE-014,Telecom Entity 14,Telecom
+CSE-015,Transport Entity 15,Transport
+CSE-016,Banking Entity 16,Banking
+CSE-017,Energy Entity 17,Energy
+CSE-018,Healthcare Entity 18,Healthcare
+CSE-019,Telecom Entity 19,Telecom
+CSE-020,Transport Entity 20,Transport

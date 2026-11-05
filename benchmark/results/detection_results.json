@@ -1,0 +1,148 @@
+{
+  "dataset_entities": 100,
+  "ground_truth_anomalies_count": 15,
+  "detectors": {
+    "isolation_forest": {
+      "detector": "Isolation Forest (Module C)",
+      "execution_time_seconds": 1.6764,
+      "flagged_count": 15,
+      "ground_truth_anomalies": 15,
+      "confusion_matrix": {
+        "tp": 7,
+        "fp": 8,
+        "fn": 8,
+        "tn": 77
+      },
+      "metrics": {
+        "precision": 0.4667,
+        "recall": 0.4667,
+        "f1_score": 0.4667,
+        "false_positive_rate": 0.0941,
+        "false_negative_rate": 0.5333,
+        "roc_auc": 0.8729,
+        "pr_auc": 0.5464,
+        "recall_at_k": {
+          "recall@5": 0.2667,
+          "recall@10": 0.4667,
+          "recall@15": 0.4667,
+          "recall@20": 0.6
+        }
+      }
+    },
+    "execution_gaps": {
+      "detector": "Execution Gaps (Module A)",
+      "execution_time_seconds": 0.1285,
+      "flagged_count": 17,
+      "ground_truth_anomalies": 15,
+      "confusion_matrix": {
+        "tp": 14,
+        "fp": 3,
+        "fn": 1,
+        "tn": 82
+      },
+      "metrics": {
+        "precision": 0.8235,
+        "recall": 0.9333,
+        "f1_score": 0.875,
+        "false_positive_rate": 0.0353,
+        "false_negative_rate": 0.0667,
+        "roc_auc": null,
+        "pr_auc": null,
+        "recall_at_k": {}
+      }
+    },
+    "negative_space": {
+      "detector": "Negative Space (Module B)",
+      "execution_time_seconds": 0.1478,
+      "flagged_count": 97,
+      "ground_truth_anomalies": 15,
+      "confusion_matrix": {
+        "tp": 15,
+        "fp": 82,
+        "fn": 0,
+        "tn": 3
+      },
+      "metrics": {
+        "precision": 0.1546,
+        "recall": 1.0,
+        "f1_score": 0.2679,
+        "false_positive_rate": 0.9647,
+        "false_negative_rate": 0.0,
+        "roc_auc": null,
+        "pr_auc": null,
+        "recall_at_k": {}
+      }
+    },
+    "peer_analysis": {
+      "detector": "Peer Comparison (Module D)",
+      "execution_time_seconds": 0.2025,
+      "flagged_count": 15,
+      "ground_truth_anomalies": 15,
+      "confusion_matrix": {
+        "tp": 15,
+        "fp": 0,
+        "fn": 0,
+        "tn": 85
+      },
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "false_positive_rate": 0.0,
+        "false_negative_rate": 0.0,
+        "roc_auc": null,
+        "pr_auc": null,
+        "recall_at_k": {}
+      }
+    },
+    "repeated_incidents": {
+      "detector": "Repeated Incidents (Module E)",
+      "execution_time_seconds": 0.0083,
+      "flagged_count": 17,
+      "ground_truth_anomalies": 15,
+      "confusion_matrix": {
+        "tp": 15,
+        "fp": 2,
+        "fn": 0,
+        "tn": 83
+      },
+      "metrics": {
+        "precision": 0.8824,
+        "recall": 1.0,
+        "f1_score": 0.9375,
+        "false_positive_rate": 0.0235,
+        "false_negative_rate": 0.0,
+        "roc_auc": null,
+        "pr_auc": null,
+        "recall_at_k": {}
+      }
+    },
+    "composite_risk_scoring": {
+      "detector": "Composite Risk >= 60 (Phase 4)",
+      "execution_time_seconds": 0.0103,
+      "flagged_count": 11,
+      "ground_truth_anomalies": 15,
+      "confusion_matrix": {
+        "tp": 11,
+        "fp": 0,
+        "fn": 4,
+        "tn": 85
+      },
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.7333,
+        "f1_score": 0.8462,
+        "false_positive_rate": 0.0,
+        "false_negative_rate": 0.2667,
+        "roc_auc": 1.0,
+        "pr_auc": 1.0,
+        "recall_at_k": {
+          "recall@5": 0.3333,
+          "recall@10": 0.6667,
+          "recall@15": 1.0,
+          "recall@20": 1.0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "active_id": "ASM-DEFAULT",
+  "assessments": {
+    "ASM-DEFAULT": {
+      "assessment_id": "ASM-DEFAULT",
+      "name": "Baseline Assessment",
+      "description": "Default baseline supervisory assessment",
+      "created_at": "2026-11-05T08:02:45.778Z",
+      "updated_at": "2026-11-05T08:02:45.781Z",
+      "db_path": "C:\\Users\\Parv Garg\\Desktop\\PS0157\\sat_sa.db",
+      "cache_path": "C:\\Users\\Parv Garg\\Desktop\\PS0157\\analytics_cache.json",
+      "status": "READY"
+    }
+  }
+}

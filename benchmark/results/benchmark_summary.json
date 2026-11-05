@@ -1,0 +1,292 @@
+{
+  "environment": {
+    "os": "Windows",
+    "os_release": "11",
+    "os_version": "10.0.26300",
+    "architecture": "AMD64",
+    "python_version": "3.14.7",
+    "sqlite_version": "3.50.4",
+    "cpu_count": 8,
+    "timestamp": "2026-11-05T08:44:00.348127+00:00"
+  },
+  "benchmark_runs_per_test": 3,
+  "target_scale": "small",
+  "elapsed_total_seconds": 110.23,
+  "ingestion": {
+    "small": {
+      "total_records": 1850,
+      "records_per_second": {
+        "min": 50035.8363,
+        "max": 56546.3908,
+        "mean": 54171.1147,
+        "median": 55931.1172
+      },
+      "total_time_seconds": {
+        "min": 0.0327,
+        "max": 0.037,
+        "mean": 0.0343,
+        "median": 0.0331
+      },
+      "commit_time_seconds": {
+        "min": 0.0041,
+        "max": 0.0058,
+        "mean": 0.0047,
+        "median": 0.0041
+      },
+      "validation_time_seconds": {
+        "min": 0.0006,
+        "max": 0.0008,
+        "mean": 0.0007,
+        "median": 0.0006
+      },
+      "memory_delta_mb": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    "medium": {
+      "total_records": 9000,
+      "records_per_second": {
+        "min": 29953.8611,
+        "max": 56297.8179,
+        "mean": 43126.4932,
+        "median": 43127.8006
+      },
+      "total_time_seconds": {
+        "min": 0.1599,
+        "max": 0.3005,
+        "mean": 0.223,
+        "median": 0.2087
+      },
+      "commit_time_seconds": {
+        "min": 0.0115,
+        "max": 0.0135,
+        "mean": 0.0125,
+        "median": 0.0125
+      },
+      "validation_time_seconds": {
+        "min": 0.0034,
+        "max": 0.006,
+        "mean": 0.0044,
+        "median": 0.0037
+      },
+      "memory_delta_mb": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    "large": {
+      "total_records": 18000,
+      "records_per_second": {
+        "min": 53064.0196,
+        "max": 53914.4593,
+        "mean": 53546.4315,
+        "median": 53660.8154
+      },
+      "total_time_seconds": {
+        "min": 0.3339,
+        "max": 0.3392,
+        "mean": 0.3362,
+        "median": 0.3354
+      },
+      "commit_time_seconds": {
+        "min": 0.0215,
+        "max": 0.0242,
+        "mean": 0.0225,
+        "median": 0.0217
+      },
+      "validation_time_seconds": {
+        "min": 0.0073,
+        "max": 0.0092,
+        "mean": 0.0079,
+        "median": 0.0073
+      },
+      "memory_delta_mb": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    "xl": {
+      "total_records": 90000,
+      "records_per_second": {
+        "min": 27234.8823,
+        "max": 34833.8181,
+        "mean": 31758.5624,
+        "median": 33206.9869
+      },
+      "total_time_seconds": {
+        "min": 2.5837,
+        "max": 3.3046,
+        "mean": 2.8662,
+        "median": 2.7103
+      },
+      "commit_time_seconds": {
+        "min": 0.1831,
+        "max": 0.2141,
+        "mean": 0.2005,
+        "median": 0.2043
+      },
+      "validation_time_seconds": {
+        "min": 0.0462,
+        "max": 0.0721,
+        "mean": 0.0564,
+        "median": 0.0508
+      },
+      "memory_delta_mb": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    "stress": {
+      "total_records": 180000,
+      "records_per_second": {
+        "min": 14323.745,
+        "max": 31511.6986,
+        "mean": 23950.7586,
+        "median": 26016.8321
+      },
+      "total_time_seconds": {
+        "min": 5.7122,
+        "max": 12.5665,
+        "mean": 8.3991,
+        "median": 6.9186
+      },
+      "commit_time_seconds": {
+        "min": 0.3424,
+        "max": 0.6442,
+        "mean": 0.4526,
+        "median": 0.3713
+      },
+      "validation_time_seconds": {
+        "min": 0.152,
+        "max": 0.2915,
+        "mean": 0.2155,
+        "median": 0.2031
+      },
+      "memory_delta_mb": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0
+      }
+    }
+  },
+  "analytics": {
+    "entity_count": 100,
+    "modules": {
+      "Module_A_Execution_Gaps": {
+        "min": 0.0468,
+        "max": 0.1054,
+        "mean": 0.0664,
+        "median": 0.0469
+      },
+      "Module_B_Negative_Space": {
+        "min": 0.0452,
+        "max": 0.0492,
+        "mean": 0.0467,
+        "median": 0.0458
+      },
+      "Module_C_Anomaly_Detection": {
+        "min": 0.8706,
+        "max": 1.4383,
+        "mean": 1.0989,
+        "median": 0.9877
+      },
+      "Module_D_Peer_Comparison": {
+        "min": 0.0958,
+        "max": 0.1753,
+        "mean": 0.128,
+        "median": 0.113
+      },
+      "Module_E_Repeated_Incidents": {
+        "min": 0.0184,
+        "max": 0.0233,
+        "mean": 0.02,
+        "median": 0.0185
+      },
+      "Phase_4_Risk_Scoring": {
+        "min": 0.0061,
+        "max": 0.01,
+        "mean": 0.0081,
+        "median": 0.0082
+      },
+      "Module_F_Alert_Prioritization": {
+        "min": 0.0441,
+        "max": 0.051,
+        "mean": 0.0474,
+        "median": 0.047
+      },
+      "Module_G_Control_Prioritization": {
+        "min": 0.02,
+        "max": 0.0218,
+        "mean": 0.0209,
+        "median": 0.0209
+      }
+    },
+    "full_pipeline_in_process": {
+      "min": 2.3008,
+      "max": 4.7092,
+      "mean": 3.2501,
+      "median": 2.7402
+    },
+    "full_pipeline_subprocess": {
+      "min": 7.8804,
+      "max": 12.2155,
+      "mean": 9.4791,
+      "median": 8.3414
+    },
+    "subprocess_overhead_seconds": 5.6012,
+    "entities_per_second": 36.49
+  },
+  "sqlite": {
+    "db_size_mb": 1.79,
+    "indexed_lookup_1000_seconds": {
+      "min": 0.0854,
+      "max": 0.104,
+      "mean": 0.0954,
+      "median": 0.0968
+    },
+    "unindexed_lookup_1000_seconds": {
+      "min": 0.1604,
+      "max": 0.2777,
+      "mean": 0.2031,
+      "median": 0.1712
+    },
+    "index_speedup_multiplier": 1.77,
+    "four_table_join_seconds": {
+      "min": 0.0014,
+      "max": 0.0022,
+      "mean": 0.0017,
+      "median": 0.0015
+    },
+    "aggregation_query_seconds": {
+      "min": 0.0016,
+      "max": 0.0019,
+      "mean": 0.0018,
+      "median": 0.0019
+    },
+    "concurrent_wal_reads_seconds": {
+      "min": 0.3504,
+      "max": 1.0681,
+      "mean": 0.667,
+      "median": 0.5827
+    },
+    "concurrent_reads_per_second": 3432.3
+  },
+  "reliability": {
+    "fk_violation_rejected": true,
+    "enum_violation_rejected": true,
+    "duplicate_pk_rejected": true,
+    "atomic_rollback_verified": true,
+    "audit_chain_valid_before_tamper": true,
+    "audit_tamper_detected": true
+  }
+}

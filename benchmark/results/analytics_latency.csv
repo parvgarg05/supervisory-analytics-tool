@@ -1,0 +1,9 @@
+Module,Median Latency (s),Mean Latency (s),Min (s),Max (s)
+Module_A_Execution_Gaps,0.0469,0.0664,0.0468,0.1054
+Module_B_Negative_Space,0.0458,0.0467,0.0452,0.0492
+Module_C_Anomaly_Detection,0.9877,1.0989,0.8706,1.4383
+Module_D_Peer_Comparison,0.113,0.128,0.0958,0.1753
+Module_E_Repeated_Incidents,0.0185,0.02,0.0184,0.0233
+Phase_4_Risk_Scoring,0.0082,0.0081,0.0061,0.01
+Module_F_Alert_Prioritization,0.047,0.0474,0.0441,0.051
+Module_G_Control_Prioritization,0.0209,0.0209,0.02,0.0218
