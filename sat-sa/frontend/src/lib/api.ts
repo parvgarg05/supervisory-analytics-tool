@@ -10,7 +10,8 @@ import {
   DEMO_ASSESSMENTS,
   DEMO_ENTITY_DETAILS,
   DEMO_ALERT_PRIORITIES,
-  DEMO_TRENDS,
+  DEMO_ALERT_TRENDS,
+  DEMO_FINDING_TRENDS,
   DEMO_EVIDENCE_INTEGRITY,
   DEMO_VALIDATION_METRICS,
   DEMO_ALERTS_SAMPLE,
@@ -222,11 +223,19 @@ export async function fetchTrends(entityId?: string, days?: number): Promise<any
   const params = new URLSearchParams();
   if (entityId && entityId !== 'ALL') params.set('entity_id', entityId);
   if (days) params.set('days', days.toString());
-  return safeFetchJson(`${API_BASE}/trends?${params.toString()}`, undefined, () => ({
-    success: true,
-    alerts_by_day: DEMO_TRENDS,
-    days_window: days || 90
-  }));
+  return safeFetchJson(`${API_BASE}/trends?${params.toString()}`, undefined, () => {
+    let aTrends = [...DEMO_ALERT_TRENDS];
+    let fTrends = [...DEMO_FINDING_TRENDS];
+    if (days) {
+      aTrends = aTrends.slice(-days);
+    }
+    return {
+      success: true,
+      alert_trends: aTrends,
+      finding_trends: fTrends,
+      days_window: days || 30
+    };
+  });
 }
 
 export async function uploadExpertLabels(file: File, assessmentId?: string): Promise<any> {
@@ -469,4 +478,35 @@ export async function fetchExternalDatasetDetails(datasetId: string): Promise<Ex
     status: 'INGESTED',
     events: []
   } as any as ExternalDatasetDetails));
+}
+
+export async function runAgentInvestigation(entityId: string): Promise<any> {
+  return safeFetchJson(`${API_BASE}/agents/investigate`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ entity_id: entityId })
+  }, () => {
+    const ent = DEMO_ENTITIES.find(e => e.entity_id === entityId) || DEMO_ENTITIES[0];
+    return {
+      success: true,
+      investigation_id: `INV-${entityId}-${Date.now().toString(16).toUpperCase()}`,
+      entity_id: entityId,
+      status: 'COMPLETED',
+      deterministic_risk_score: ent.risk_score,
+      risk_classification: ent.risk_level,
+      llm_status: 'SUCCESS',
+      llm_model: 'qwen3.5:4b',
+      workflow_runtime_seconds: 35.25,
+      audit_chain_verified: true,
+      evidence_citations: ['ALT-0033', 'AST-013'],
+      hallucinated_citations_rejected: 0,
+      executive_summary: `LangGraph investigation completed for ${ent.entity_name} (${entityId}). The entity exhibits ${ent.risk_level} composite operational risk driven by telemetry anomalies and unresolved alert clusters.`,
+      risk_explanation: `Correlation across 7 pipeline nodes validated deterministic risk invariants while isolating behavioral gaps across infrastructure assets.`,
+      recommended_investigation_steps: [
+        'Review high-priority alerts with rapid closure timestamps.',
+        'Validate secondary authentication logs for SCADA controllers.',
+        'Inspect unresolved malware remediation cases on asset AST-013.'
+      ]
+    };
+  });
 }

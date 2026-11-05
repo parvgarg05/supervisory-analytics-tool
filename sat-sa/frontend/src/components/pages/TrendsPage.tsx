@@ -108,7 +108,7 @@ export function TrendsPage() {
         <div className="text-app-muted text-sm p-4">Aggregating temporal data...</div>
       ) : error ? (
         <div className="text-red-400 flex items-center p-4 bg-red-500/10 rounded"><AlertTriangle className="mr-2" />{error}</div>
-      ) : (!trends || trends.alert_trends.length === 0) ? (
+      ) : (!trends || !trends.alert_trends || trends.alert_trends.length === 0) ? (
         <div className="p-12 text-center flex flex-col items-center bg-app-surface border border-app-borderDivider rounded">
           <BarChart2 className="w-10 h-10 text-app-muted opacity-30 mb-3" />
           <p className="text-app-heading font-medium">Insufficient historical data</p>
@@ -248,7 +248,7 @@ export function TrendsPage() {
           {/* Trend: Findings */}
           <div className="bg-app-surface border border-app-borderDivider rounded p-5">
             <h3 className="font-bold text-app-heading mb-4">Supervisory Finding Generation Trend</h3>
-            {trends.finding_trends.length === 0 ? (
+            {(!trends.finding_trends || trends.finding_trends.length === 0) ? (
               <p className="text-app-muted text-sm text-center py-8">No findings generated in this window.</p>
             ) : (
               <table className="w-full text-sm text-left">

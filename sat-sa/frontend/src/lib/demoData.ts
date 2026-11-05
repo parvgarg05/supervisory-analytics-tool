@@ -40,8 +40,8 @@ export const DEMO_DASHBOARD_METRICS: DashboardMetrics = {
   },
   "useful_aggregate_metrics": {
     "total_assets": 377,
-    "total_alerts": 1185,
-    "total_cases": 1061,
+    "total_alerts": 1186,
+    "total_cases": 1062,
     "average_risk_score": 16.3,
     "escalated_cases_ratio": 0.182,
     "avg_investigation_duration_minutes": 48.5,
@@ -5488,8 +5488,8 @@ export const DEMO_ASSESSMENTS: AssessmentInfo[] = [
     "counts": {
       "entities": 22,
       "assets": 377,
-      "alerts": 1185,
-      "cases": 1061
+      "alerts": 1186,
+      "cases": 1062
     },
     "total_findings": 32
   }
@@ -14119,7 +14119,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00269",
       "AST-007-30"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00305",
@@ -14142,7 +14142,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00270",
       "AST-007-02"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00306",
@@ -14165,7 +14165,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00271",
       "AST-007-01"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00309",
@@ -14188,7 +14188,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00274",
       "AST-007-10"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00312",
@@ -14211,7 +14211,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00277",
       "AST-007-01"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00315",
@@ -14233,7 +14233,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00280",
       "AST-007-02"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00316",
@@ -14256,7 +14256,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00281",
       "AST-007-01"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00317",
@@ -14278,7 +14278,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00282",
       "AST-007-09"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00319",
@@ -14301,7 +14301,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00284",
       "AST-007-01"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00321",
@@ -14324,7 +14324,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00286",
       "AST-007-01"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00324",
@@ -14347,7 +14347,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00289",
       "AST-007-01"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00327",
@@ -14369,7 +14369,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00292",
       "AST-007-03"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00329",
@@ -14391,7 +14391,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00294",
       "AST-007-05"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00336",
@@ -14413,7 +14413,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00300",
       "AST-007-24"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00344",
@@ -14436,7 +14436,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00308",
       "AST-007-01"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00345",
@@ -14457,7 +14457,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00309",
       "AST-007-01"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00353",
@@ -14478,7 +14478,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00316",
       "AST-007-01"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00354",
@@ -14500,7 +14500,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00317",
       "AST-007-01"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00364",
@@ -14521,7 +14521,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00326",
       "AST-007-09"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00367",
@@ -14543,7 +14543,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00328",
       "AST-007-02"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00373",
@@ -14565,7 +14565,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00332",
       "AST-007-01"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00376",
@@ -14586,7 +14586,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00335",
       "AST-007-17"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00378",
@@ -14608,7 +14608,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00336",
       "AST-007-01"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00380",
@@ -14629,7 +14629,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00338",
       "AST-007-17"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00381",
@@ -14650,7 +14650,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00339",
       "AST-007-03"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00387",
@@ -14672,7 +14672,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00345",
       "AST-007-01"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00398",
@@ -14693,7 +14693,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00356",
       "AST-007-01"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00399",
@@ -14714,7 +14714,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00357",
       "AST-007-24"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00404",
@@ -14735,7 +14735,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00361",
       "AST-007-05"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00412",
@@ -14756,7 +14756,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00368",
       "AST-007-04"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00418",
@@ -14778,7 +14778,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00374",
       "AST-007-10"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00421",
@@ -14799,7 +14799,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00377",
       "AST-007-24"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00424",
@@ -14821,7 +14821,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00379",
       "AST-007-01"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00425",
@@ -14842,7 +14842,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00380",
       "AST-007-04"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00429",
@@ -14863,7 +14863,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00384",
       "AST-007-02"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00431",
@@ -14884,7 +14884,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00385",
       "AST-007-30"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00434",
@@ -14905,7 +14905,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00388",
       "AST-007-01"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00438",
@@ -14926,7 +14926,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00391",
       "AST-007-04"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00440",
@@ -14947,7 +14947,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00393",
       "AST-007-05"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00442",
@@ -14969,7 +14969,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00395",
       "AST-007-01"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00446",
@@ -14990,7 +14990,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00399",
       "AST-007-04"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00447",
@@ -15012,7 +15012,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00400",
       "AST-007-10"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00453",
@@ -15033,7 +15033,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00406",
       "AST-007-06"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00461",
@@ -15055,7 +15055,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00412",
       "AST-007-01"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00462",
@@ -15077,7 +15077,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00413",
       "AST-007-01"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00468",
@@ -15098,7 +15098,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00417",
       "AST-007-30"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00473",
@@ -15119,7 +15119,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00421",
       "AST-007-23"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00474",
@@ -15141,7 +15141,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00422",
       "AST-007-01"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00481",
@@ -15163,7 +15163,7 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00428",
       "AST-007-01"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   },
   {
     "alert_id": "ALT-00486",
@@ -15185,378 +15185,682 @@ export const DEMO_ALERT_PRIORITIES = [
       "CAS-00433",
       "AST-007-01"
     ],
-    "calculated_at": "2026-11-05T15:50:45.083963+00:00"
+    "calculated_at": "2026-11-05T19:12:23.372079+00:00"
   }
 ];
 
-export const DEMO_TRENDS = [
+export const DEMO_ALERT_TRENDS = [
   {
-    "date": "2026-06-30",
-    "alerts": 1
+    "date_bucket": "2026-06-30",
+    "total_alerts": 1,
+    "critical_alerts": 0,
+    "high_alerts": 0,
+    "other_alerts": 1
   },
   {
-    "date": "2026-07-01",
-    "alerts": 15
+    "date_bucket": "2026-07-01",
+    "total_alerts": 15,
+    "critical_alerts": 2,
+    "high_alerts": 4,
+    "other_alerts": 9
   },
   {
-    "date": "2026-07-02",
-    "alerts": 19
+    "date_bucket": "2026-07-02",
+    "total_alerts": 19,
+    "critical_alerts": 9,
+    "high_alerts": 1,
+    "other_alerts": 9
   },
   {
-    "date": "2026-07-03",
-    "alerts": 13
+    "date_bucket": "2026-07-03",
+    "total_alerts": 13,
+    "critical_alerts": 4,
+    "high_alerts": 2,
+    "other_alerts": 7
   },
   {
-    "date": "2026-07-04",
-    "alerts": 13
+    "date_bucket": "2026-07-04",
+    "total_alerts": 13,
+    "critical_alerts": 2,
+    "high_alerts": 4,
+    "other_alerts": 7
   },
   {
-    "date": "2026-07-05",
-    "alerts": 10
+    "date_bucket": "2026-07-05",
+    "total_alerts": 10,
+    "critical_alerts": 3,
+    "high_alerts": 4,
+    "other_alerts": 3
   },
   {
-    "date": "2026-07-06",
-    "alerts": 7
+    "date_bucket": "2026-07-06",
+    "total_alerts": 7,
+    "critical_alerts": 2,
+    "high_alerts": 1,
+    "other_alerts": 4
   },
   {
-    "date": "2026-07-07",
-    "alerts": 12
+    "date_bucket": "2026-07-07",
+    "total_alerts": 12,
+    "critical_alerts": 2,
+    "high_alerts": 5,
+    "other_alerts": 5
   },
   {
-    "date": "2026-07-08",
-    "alerts": 12
+    "date_bucket": "2026-07-08",
+    "total_alerts": 12,
+    "critical_alerts": 3,
+    "high_alerts": 3,
+    "other_alerts": 6
   },
   {
-    "date": "2026-07-09",
-    "alerts": 14
+    "date_bucket": "2026-07-09",
+    "total_alerts": 14,
+    "critical_alerts": 4,
+    "high_alerts": 3,
+    "other_alerts": 7
   },
   {
-    "date": "2026-07-10",
-    "alerts": 10
+    "date_bucket": "2026-07-10",
+    "total_alerts": 10,
+    "critical_alerts": 4,
+    "high_alerts": 3,
+    "other_alerts": 3
   },
   {
-    "date": "2026-07-11",
-    "alerts": 12
+    "date_bucket": "2026-07-11",
+    "total_alerts": 12,
+    "critical_alerts": 3,
+    "high_alerts": 1,
+    "other_alerts": 8
   },
   {
-    "date": "2026-07-12",
-    "alerts": 16
+    "date_bucket": "2026-07-12",
+    "total_alerts": 16,
+    "critical_alerts": 7,
+    "high_alerts": 4,
+    "other_alerts": 5
   },
   {
-    "date": "2026-07-13",
-    "alerts": 17
+    "date_bucket": "2026-07-13",
+    "total_alerts": 17,
+    "critical_alerts": 5,
+    "high_alerts": 2,
+    "other_alerts": 10
   },
   {
-    "date": "2026-07-14",
-    "alerts": 11
+    "date_bucket": "2026-07-14",
+    "total_alerts": 11,
+    "critical_alerts": 4,
+    "high_alerts": 4,
+    "other_alerts": 3
   },
   {
-    "date": "2026-07-15",
-    "alerts": 10
+    "date_bucket": "2026-07-15",
+    "total_alerts": 10,
+    "critical_alerts": 4,
+    "high_alerts": 1,
+    "other_alerts": 5
   },
   {
-    "date": "2026-07-16",
-    "alerts": 13
+    "date_bucket": "2026-07-16",
+    "total_alerts": 13,
+    "critical_alerts": 5,
+    "high_alerts": 2,
+    "other_alerts": 6
   },
   {
-    "date": "2026-07-17",
-    "alerts": 15
+    "date_bucket": "2026-07-17",
+    "total_alerts": 15,
+    "critical_alerts": 5,
+    "high_alerts": 3,
+    "other_alerts": 7
   },
   {
-    "date": "2026-07-18",
-    "alerts": 18
+    "date_bucket": "2026-07-18",
+    "total_alerts": 18,
+    "critical_alerts": 7,
+    "high_alerts": 3,
+    "other_alerts": 8
   },
   {
-    "date": "2026-07-19",
-    "alerts": 13
+    "date_bucket": "2026-07-19",
+    "total_alerts": 13,
+    "critical_alerts": 1,
+    "high_alerts": 2,
+    "other_alerts": 10
   },
   {
-    "date": "2026-07-20",
-    "alerts": 23
+    "date_bucket": "2026-07-20",
+    "total_alerts": 23,
+    "critical_alerts": 4,
+    "high_alerts": 5,
+    "other_alerts": 14
   },
   {
-    "date": "2026-07-21",
-    "alerts": 19
+    "date_bucket": "2026-07-21",
+    "total_alerts": 19,
+    "critical_alerts": 5,
+    "high_alerts": 7,
+    "other_alerts": 7
   },
   {
-    "date": "2026-07-22",
-    "alerts": 13
+    "date_bucket": "2026-07-22",
+    "total_alerts": 13,
+    "critical_alerts": 5,
+    "high_alerts": 3,
+    "other_alerts": 5
   },
   {
-    "date": "2026-07-23",
-    "alerts": 11
+    "date_bucket": "2026-07-23",
+    "total_alerts": 11,
+    "critical_alerts": 7,
+    "high_alerts": 0,
+    "other_alerts": 4
   },
   {
-    "date": "2026-07-24",
-    "alerts": 14
+    "date_bucket": "2026-07-24",
+    "total_alerts": 14,
+    "critical_alerts": 7,
+    "high_alerts": 1,
+    "other_alerts": 6
   },
   {
-    "date": "2026-07-25",
-    "alerts": 11
+    "date_bucket": "2026-07-25",
+    "total_alerts": 11,
+    "critical_alerts": 4,
+    "high_alerts": 3,
+    "other_alerts": 4
   },
   {
-    "date": "2026-07-26",
-    "alerts": 6
+    "date_bucket": "2026-07-26",
+    "total_alerts": 6,
+    "critical_alerts": 1,
+    "high_alerts": 1,
+    "other_alerts": 4
   },
   {
-    "date": "2026-07-27",
-    "alerts": 19
+    "date_bucket": "2026-07-27",
+    "total_alerts": 19,
+    "critical_alerts": 8,
+    "high_alerts": 5,
+    "other_alerts": 6
   },
   {
-    "date": "2026-07-28",
-    "alerts": 15
+    "date_bucket": "2026-07-28",
+    "total_alerts": 15,
+    "critical_alerts": 5,
+    "high_alerts": 2,
+    "other_alerts": 8
   },
   {
-    "date": "2026-07-29",
-    "alerts": 14
+    "date_bucket": "2026-07-29",
+    "total_alerts": 14,
+    "critical_alerts": 3,
+    "high_alerts": 7,
+    "other_alerts": 4
   },
   {
-    "date": "2026-07-30",
-    "alerts": 14
+    "date_bucket": "2026-07-30",
+    "total_alerts": 14,
+    "critical_alerts": 2,
+    "high_alerts": 4,
+    "other_alerts": 8
   },
   {
-    "date": "2026-07-31",
-    "alerts": 15
+    "date_bucket": "2026-07-31",
+    "total_alerts": 15,
+    "critical_alerts": 7,
+    "high_alerts": 4,
+    "other_alerts": 4
   },
   {
-    "date": "2026-08-01",
-    "alerts": 10
+    "date_bucket": "2026-08-01",
+    "total_alerts": 10,
+    "critical_alerts": 3,
+    "high_alerts": 5,
+    "other_alerts": 2
   },
   {
-    "date": "2026-08-02",
-    "alerts": 22
+    "date_bucket": "2026-08-02",
+    "total_alerts": 22,
+    "critical_alerts": 5,
+    "high_alerts": 7,
+    "other_alerts": 10
   },
   {
-    "date": "2026-08-03",
-    "alerts": 13
+    "date_bucket": "2026-08-03",
+    "total_alerts": 13,
+    "critical_alerts": 3,
+    "high_alerts": 3,
+    "other_alerts": 7
   },
   {
-    "date": "2026-08-04",
-    "alerts": 14
+    "date_bucket": "2026-08-04",
+    "total_alerts": 14,
+    "critical_alerts": 3,
+    "high_alerts": 4,
+    "other_alerts": 7
   },
   {
-    "date": "2026-08-05",
-    "alerts": 15
+    "date_bucket": "2026-08-05",
+    "total_alerts": 15,
+    "critical_alerts": 4,
+    "high_alerts": 2,
+    "other_alerts": 9
   },
   {
-    "date": "2026-08-06",
-    "alerts": 12
+    "date_bucket": "2026-08-06",
+    "total_alerts": 12,
+    "critical_alerts": 5,
+    "high_alerts": 1,
+    "other_alerts": 6
   },
   {
-    "date": "2026-08-07",
-    "alerts": 12
+    "date_bucket": "2026-08-07",
+    "total_alerts": 12,
+    "critical_alerts": 3,
+    "high_alerts": 3,
+    "other_alerts": 6
   },
   {
-    "date": "2026-08-08",
-    "alerts": 13
+    "date_bucket": "2026-08-08",
+    "total_alerts": 13,
+    "critical_alerts": 2,
+    "high_alerts": 6,
+    "other_alerts": 5
   },
   {
-    "date": "2026-08-09",
-    "alerts": 14
+    "date_bucket": "2026-08-09",
+    "total_alerts": 14,
+    "critical_alerts": 6,
+    "high_alerts": 0,
+    "other_alerts": 8
   },
   {
-    "date": "2026-08-10",
-    "alerts": 19
+    "date_bucket": "2026-08-10",
+    "total_alerts": 19,
+    "critical_alerts": 6,
+    "high_alerts": 3,
+    "other_alerts": 10
   },
   {
-    "date": "2026-08-11",
-    "alerts": 8
+    "date_bucket": "2026-08-11",
+    "total_alerts": 8,
+    "critical_alerts": 2,
+    "high_alerts": 1,
+    "other_alerts": 5
   },
   {
-    "date": "2026-08-12",
-    "alerts": 10
+    "date_bucket": "2026-08-12",
+    "total_alerts": 10,
+    "critical_alerts": 2,
+    "high_alerts": 2,
+    "other_alerts": 6
   },
   {
-    "date": "2026-08-13",
-    "alerts": 11
+    "date_bucket": "2026-08-13",
+    "total_alerts": 11,
+    "critical_alerts": 2,
+    "high_alerts": 5,
+    "other_alerts": 4
   },
   {
-    "date": "2026-08-14",
-    "alerts": 18
+    "date_bucket": "2026-08-14",
+    "total_alerts": 18,
+    "critical_alerts": 8,
+    "high_alerts": 3,
+    "other_alerts": 7
   },
   {
-    "date": "2026-08-15",
-    "alerts": 15
+    "date_bucket": "2026-08-15",
+    "total_alerts": 15,
+    "critical_alerts": 6,
+    "high_alerts": 6,
+    "other_alerts": 3
   },
   {
-    "date": "2026-08-16",
-    "alerts": 11
+    "date_bucket": "2026-08-16",
+    "total_alerts": 11,
+    "critical_alerts": 1,
+    "high_alerts": 3,
+    "other_alerts": 7
   },
   {
-    "date": "2026-08-17",
-    "alerts": 13
+    "date_bucket": "2026-08-17",
+    "total_alerts": 13,
+    "critical_alerts": 5,
+    "high_alerts": 2,
+    "other_alerts": 6
   },
   {
-    "date": "2026-08-18",
-    "alerts": 13
+    "date_bucket": "2026-08-18",
+    "total_alerts": 13,
+    "critical_alerts": 4,
+    "high_alerts": 4,
+    "other_alerts": 5
   },
   {
-    "date": "2026-08-19",
-    "alerts": 14
+    "date_bucket": "2026-08-19",
+    "total_alerts": 14,
+    "critical_alerts": 8,
+    "high_alerts": 3,
+    "other_alerts": 3
   },
   {
-    "date": "2026-08-20",
-    "alerts": 15
+    "date_bucket": "2026-08-20",
+    "total_alerts": 15,
+    "critical_alerts": 5,
+    "high_alerts": 5,
+    "other_alerts": 5
   },
   {
-    "date": "2026-08-21",
-    "alerts": 8
+    "date_bucket": "2026-08-21",
+    "total_alerts": 8,
+    "critical_alerts": 0,
+    "high_alerts": 5,
+    "other_alerts": 3
   },
   {
-    "date": "2026-08-22",
-    "alerts": 15
+    "date_bucket": "2026-08-22",
+    "total_alerts": 15,
+    "critical_alerts": 4,
+    "high_alerts": 7,
+    "other_alerts": 4
   },
   {
-    "date": "2026-08-23",
-    "alerts": 10
+    "date_bucket": "2026-08-23",
+    "total_alerts": 10,
+    "critical_alerts": 3,
+    "high_alerts": 4,
+    "other_alerts": 3
   },
   {
-    "date": "2026-08-24",
-    "alerts": 11
+    "date_bucket": "2026-08-24",
+    "total_alerts": 11,
+    "critical_alerts": 4,
+    "high_alerts": 2,
+    "other_alerts": 5
   },
   {
-    "date": "2026-08-25",
-    "alerts": 16
+    "date_bucket": "2026-08-25",
+    "total_alerts": 16,
+    "critical_alerts": 4,
+    "high_alerts": 6,
+    "other_alerts": 6
   },
   {
-    "date": "2026-08-26",
-    "alerts": 8
+    "date_bucket": "2026-08-26",
+    "total_alerts": 8,
+    "critical_alerts": 2,
+    "high_alerts": 1,
+    "other_alerts": 5
   },
   {
-    "date": "2026-08-27",
-    "alerts": 16
+    "date_bucket": "2026-08-27",
+    "total_alerts": 16,
+    "critical_alerts": 4,
+    "high_alerts": 6,
+    "other_alerts": 6
   },
   {
-    "date": "2026-08-28",
-    "alerts": 11
+    "date_bucket": "2026-08-28",
+    "total_alerts": 11,
+    "critical_alerts": 5,
+    "high_alerts": 3,
+    "other_alerts": 3
   },
   {
-    "date": "2026-08-29",
-    "alerts": 18
+    "date_bucket": "2026-08-29",
+    "total_alerts": 18,
+    "critical_alerts": 7,
+    "high_alerts": 4,
+    "other_alerts": 7
   },
   {
-    "date": "2026-08-30",
-    "alerts": 13
+    "date_bucket": "2026-08-30",
+    "total_alerts": 13,
+    "critical_alerts": 6,
+    "high_alerts": 0,
+    "other_alerts": 7
   },
   {
-    "date": "2026-08-31",
-    "alerts": 16
+    "date_bucket": "2026-08-31",
+    "total_alerts": 16,
+    "critical_alerts": 6,
+    "high_alerts": 3,
+    "other_alerts": 7
   },
   {
-    "date": "2026-09-01",
-    "alerts": 9
+    "date_bucket": "2026-09-01",
+    "total_alerts": 9,
+    "critical_alerts": 2,
+    "high_alerts": 2,
+    "other_alerts": 5
   },
   {
-    "date": "2026-09-02",
-    "alerts": 15
+    "date_bucket": "2026-09-02",
+    "total_alerts": 15,
+    "critical_alerts": 5,
+    "high_alerts": 1,
+    "other_alerts": 9
   },
   {
-    "date": "2026-09-03",
-    "alerts": 9
+    "date_bucket": "2026-09-03",
+    "total_alerts": 9,
+    "critical_alerts": 2,
+    "high_alerts": 1,
+    "other_alerts": 6
   },
   {
-    "date": "2026-09-04",
-    "alerts": 14
+    "date_bucket": "2026-09-04",
+    "total_alerts": 14,
+    "critical_alerts": 4,
+    "high_alerts": 3,
+    "other_alerts": 7
   },
   {
-    "date": "2026-09-05",
-    "alerts": 11
+    "date_bucket": "2026-09-05",
+    "total_alerts": 11,
+    "critical_alerts": 4,
+    "high_alerts": 2,
+    "other_alerts": 5
   },
   {
-    "date": "2026-09-06",
-    "alerts": 4
+    "date_bucket": "2026-09-06",
+    "total_alerts": 4,
+    "critical_alerts": 2,
+    "high_alerts": 0,
+    "other_alerts": 2
   },
   {
-    "date": "2026-09-07",
-    "alerts": 14
+    "date_bucket": "2026-09-07",
+    "total_alerts": 14,
+    "critical_alerts": 3,
+    "high_alerts": 4,
+    "other_alerts": 7
   },
   {
-    "date": "2026-09-08",
-    "alerts": 11
+    "date_bucket": "2026-09-08",
+    "total_alerts": 11,
+    "critical_alerts": 1,
+    "high_alerts": 7,
+    "other_alerts": 3
   },
   {
-    "date": "2026-09-09",
-    "alerts": 15
+    "date_bucket": "2026-09-09",
+    "total_alerts": 15,
+    "critical_alerts": 4,
+    "high_alerts": 3,
+    "other_alerts": 8
   },
   {
-    "date": "2026-09-10",
-    "alerts": 14
+    "date_bucket": "2026-09-10",
+    "total_alerts": 14,
+    "critical_alerts": 4,
+    "high_alerts": 2,
+    "other_alerts": 8
   },
   {
-    "date": "2026-09-11",
-    "alerts": 10
+    "date_bucket": "2026-09-11",
+    "total_alerts": 10,
+    "critical_alerts": 4,
+    "high_alerts": 0,
+    "other_alerts": 6
   },
   {
-    "date": "2026-09-12",
-    "alerts": 8
+    "date_bucket": "2026-09-12",
+    "total_alerts": 8,
+    "critical_alerts": 0,
+    "high_alerts": 2,
+    "other_alerts": 6
   },
   {
-    "date": "2026-09-13",
-    "alerts": 16
+    "date_bucket": "2026-09-13",
+    "total_alerts": 16,
+    "critical_alerts": 2,
+    "high_alerts": 6,
+    "other_alerts": 8
   },
   {
-    "date": "2026-09-14",
-    "alerts": 17
+    "date_bucket": "2026-09-14",
+    "total_alerts": 17,
+    "critical_alerts": 6,
+    "high_alerts": 3,
+    "other_alerts": 8
   },
   {
-    "date": "2026-09-15",
-    "alerts": 21
+    "date_bucket": "2026-09-15",
+    "total_alerts": 21,
+    "critical_alerts": 5,
+    "high_alerts": 4,
+    "other_alerts": 12
   },
   {
-    "date": "2026-09-16",
-    "alerts": 12
+    "date_bucket": "2026-09-16",
+    "total_alerts": 12,
+    "critical_alerts": 5,
+    "high_alerts": 3,
+    "other_alerts": 4
   },
   {
-    "date": "2026-09-17",
-    "alerts": 8
+    "date_bucket": "2026-09-17",
+    "total_alerts": 8,
+    "critical_alerts": 2,
+    "high_alerts": 0,
+    "other_alerts": 6
   },
   {
-    "date": "2026-09-18",
-    "alerts": 5
+    "date_bucket": "2026-09-18",
+    "total_alerts": 5,
+    "critical_alerts": 1,
+    "high_alerts": 2,
+    "other_alerts": 2
   },
   {
-    "date": "2026-09-19",
-    "alerts": 14
+    "date_bucket": "2026-09-19",
+    "total_alerts": 14,
+    "critical_alerts": 6,
+    "high_alerts": 5,
+    "other_alerts": 3
   },
   {
-    "date": "2026-09-20",
-    "alerts": 10
+    "date_bucket": "2026-09-20",
+    "total_alerts": 10,
+    "critical_alerts": 4,
+    "high_alerts": 2,
+    "other_alerts": 4
   },
   {
-    "date": "2026-09-21",
-    "alerts": 15
+    "date_bucket": "2026-09-21",
+    "total_alerts": 15,
+    "critical_alerts": 4,
+    "high_alerts": 5,
+    "other_alerts": 6
   },
   {
-    "date": "2026-09-22",
-    "alerts": 13
+    "date_bucket": "2026-09-22",
+    "total_alerts": 13,
+    "critical_alerts": 4,
+    "high_alerts": 3,
+    "other_alerts": 6
   },
   {
-    "date": "2026-09-23",
-    "alerts": 9
+    "date_bucket": "2026-09-23",
+    "total_alerts": 9,
+    "critical_alerts": 3,
+    "high_alerts": 3,
+    "other_alerts": 3
   },
   {
-    "date": "2026-09-24",
-    "alerts": 16
+    "date_bucket": "2026-09-24",
+    "total_alerts": 16,
+    "critical_alerts": 4,
+    "high_alerts": 4,
+    "other_alerts": 8
   },
   {
-    "date": "2026-09-25",
-    "alerts": 7
+    "date_bucket": "2026-09-25",
+    "total_alerts": 7,
+    "critical_alerts": 2,
+    "high_alerts": 2,
+    "other_alerts": 3
   },
   {
-    "date": "2026-09-26",
-    "alerts": 14
+    "date_bucket": "2026-09-26",
+    "total_alerts": 14,
+    "critical_alerts": 5,
+    "high_alerts": 3,
+    "other_alerts": 6
   },
   {
-    "date": "2026-09-27",
-    "alerts": 23
+    "date_bucket": "2026-09-27",
+    "total_alerts": 24,
+    "critical_alerts": 6,
+    "high_alerts": 5,
+    "other_alerts": 13
   },
   {
-    "date": "2026-09-28",
-    "alerts": 10
+    "date_bucket": "2026-09-28",
+    "total_alerts": 10,
+    "critical_alerts": 3,
+    "high_alerts": 4,
+    "other_alerts": 3
   },
   {
-    "date": "2026-11-05",
-    "alerts": 2
+    "date_bucket": "2026-11-05",
+    "total_alerts": 2,
+    "critical_alerts": 1,
+    "high_alerts": 1,
+    "other_alerts": 0
+  }
+];
+
+export const DEMO_FINDING_TRENDS = [
+  {
+    "date_bucket": "2026-11-05",
+    "finding_type": "ANOMALY",
+    "count": 4
+  },
+  {
+    "date_bucket": "2026-11-05",
+    "finding_type": "EXECUTION_GAP",
+    "count": 33
+  },
+  {
+    "date_bucket": "2026-11-05",
+    "finding_type": "NEGATIVE_SPACE",
+    "count": 7
+  },
+  {
+    "date_bucket": "2026-11-05",
+    "finding_type": "PEER_DEVIATION",
+    "count": 6
+  },
+  {
+    "date_bucket": "2026-11-05",
+    "finding_type": "REPEATED_INCIDENT",
+    "count": 30
   }
 ];
 

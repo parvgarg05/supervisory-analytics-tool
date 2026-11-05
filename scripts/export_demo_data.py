@@ -181,12 +181,28 @@ for ap in alert_priorities:
 
 # 6. Trends sample (group by day)
 cursor.execute('''
-    SELECT substr(timestamp, 1, 10) as day, count(*) as count 
+    SELECT 
+      substr(timestamp, 1, 10) as date_bucket,
+      COUNT(*) as total_alerts,
+      SUM(CASE WHEN severity = 'CRITICAL' THEN 1 ELSE 0 END) as critical_alerts,
+      SUM(CASE WHEN severity = 'HIGH' THEN 1 ELSE 0 END) as high_alerts,
+      SUM(CASE WHEN severity NOT IN ('CRITICAL', 'HIGH') THEN 1 ELSE 0 END) as other_alerts
     FROM alerts 
-    GROUP BY day 
-    ORDER BY day ASC
+    GROUP BY date_bucket 
+    ORDER BY date_bucket ASC
 ''')
-alerts_trends = [{'date': r[0], 'alerts': r[1]} for r in cursor.fetchall() if r[0]]
+alert_trends = [dict(r) for r in cursor.fetchall() if r[0]]
+
+cursor.execute('''
+    SELECT 
+      substr(created_at, 1, 10) as date_bucket,
+      finding_type,
+      COUNT(*) as count
+    FROM supervisory_findings
+    GROUP BY date_bucket, finding_type
+    ORDER BY date_bucket ASC
+''')
+finding_trends = [dict(r) for r in cursor.fetchall() if r[0]]
 
 # 7. Evidence lookup cache
 cursor.execute('SELECT * FROM alerts LIMIT 200')
@@ -237,7 +253,8 @@ with open(out_path, 'w', encoding='utf-8') as out:
     out.write(f'export const DEMO_ASSESSMENTS: AssessmentInfo[] = {json.dumps(assessments_list, indent=2)};\n\n')
     out.write(f'export const DEMO_ENTITY_DETAILS: Record<string, any> = {json.dumps(entity_details, indent=2)};\n\n')
     out.write(f'export const DEMO_ALERT_PRIORITIES = {json.dumps(alert_priorities, indent=2)};\n\n')
-    out.write(f'export const DEMO_TRENDS = {json.dumps(alerts_trends, indent=2)};\n\n')
+    out.write(f'export const DEMO_ALERT_TRENDS = {json.dumps(alert_trends, indent=2)};\n\n')
+    out.write(f'export const DEMO_FINDING_TRENDS = {json.dumps(finding_trends, indent=2)};\n\n')
     out.write(f'export const DEMO_EVIDENCE_INTEGRITY: EvidenceIntegrityResponse = {json.dumps(evidence_integrity, indent=2)};\n\n')
     out.write(f'export const DEMO_VALIDATION_METRICS = {json.dumps(validation_metrics, indent=2)};\n\n')
     out.write(f'export const DEMO_ALERTS_SAMPLE = {json.dumps(sample_alerts, indent=2)};\n\n')
